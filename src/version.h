@@ -1,5 +1,5 @@
 /***************************************************
-* version.h: Project version / revision            *
+* version.h: Product version / revision            *
 * Copyright (C)                                    *
 ****************************************************
 * This Source Code Form is subject to the terms of *
@@ -15,11 +15,18 @@
 extern "C" {
 #endif //__cplusplus
 
-extern const char* PROJECT_NAME;
-extern const char* PROJECT_VERSION;
-extern const char* PROJECT_REVISION;
-extern const char* PROJECT_COMPILER;
-extern const char* PROJECT_COMPILER_VERSION;
+extern const char* PUBLISHER_NAME;
+extern const char* PRODUCT_NAME;
+extern const char* PRODUCT_DESCRIPTION;
+extern const char* PRODUCT_VERSION_STR;
+extern const short PRODUCT_VERSION_MAJOR;
+extern const short PRODUCT_VERSION_MINOR;
+extern const short PRODUCT_VERSION_PATCH;
+extern const short PRODUCT_VERSION_BUILD;
+extern const char* PRODUCT_REVISION;
+extern const char* PRODUCT_BUILD_TYPE;
+extern const char* PRODUCT_COMPILER;
+extern const char* PRODUCT_COMPILER_VERSION;
 
 #ifdef __cplusplus
 }
